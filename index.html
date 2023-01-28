@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/responsive.css">
+    <title>Bloodborne</title>
+    <style>
+        @font-face {
+        font-family: 'bloodborne';
+        src: url('src/fonts/Fleshandblood.ttf') format('truetype');
+        font-weight: normal;
+            font-style: normal;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <div class="background_video">
+        <video class="video" autoplay loop muted>
+            <source src="./src/video/videoplayback.mp4" type="video/mp4" />
+        </video>
+    </div>
+
+    <header class="header">
+        <a href=""><img src="./src/imgs/blooddborne-logo.png" alt="" class="header_logo"></a>
+        
+       
+        <nav>
+            <ul class="header_menu">
+                <li><a href="https://www.youtube.com/@heyZeusHeresToast/videos" target="_blank">Videos</a></li>
+                <li><a href="https://store.playstation.com/pt-br/product/UP9000-CUSA00900_00-BLOODBORNE000000" target="_blank">Store</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="info">
+            <img src="./src/imgs/Bloodborne-Logo.png" alt="" class="image_title">
+            <p class="description">Face your nightmares as you search for answers in the ancient city of Yharnam, now cursed with a strange endemic disease that spreads through the streets like wildfire. Danger, death and madness lurk in every corner of this dark and horrific world, and you must uncover its darkest secrets to survive.</p>
+            <button class="button_trailer"><a href="">Trailer</a></button>
+        </div>
+        <img src="./src/imgs/bloodborne_hunter.png" alt="" class="hunter">
+
+        <div class="modal">
+            <div class="modal_content">
+                <span class="close_modal">X</span>
+                <iframe id="video"  width="560" height="315" src="https://www.youtube.com/embed/2Crk_GpxGQE" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/JavaScript/index.js"></script>
+    
+
+
+</body>
+</html>

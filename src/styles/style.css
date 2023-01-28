@@ -1,0 +1,177 @@
+body {
+    
+    font-family: 'bloodborne';
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+.header_logo {
+    width: 37px;
+    filter: drop-shadow(1px 1px 2px white);
+    
+  
+}
+
+.header_logo:hover {
+    filter: drop-shadow(3px 2px 5px white);
+}
+
+
+
+.header_menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.header nav li a {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 45px;
+    text-shadow: 5px 5px 10px gray;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.2s;
+    text-decoration: none;
+    
+}
+
+.header nav li a:hover {
+    color: rgb(202, 202, 202);
+    cursor: pointer;
+    filter: drop-shadow(3px 2px 5px red);
+}
+
+
+
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 145px);
+    padding: 0 30px 30px;
+    
+}
+
+
+
+.container .image_title {
+    max-width: 520px;
+}
+
+.container .description {
+    color: lightgray;
+    width: 85%;
+    font-size: 23px;
+    margin: 30px 0;
+}
+
+.container .button_trailer {
+    background-color: transparent;
+    color: rgb(100, 37, 37);
+    padding: 18px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid white;
+    text-transform: uppercase;
+    transition: 0.5s all ease-in-out;
+    border-radius: 50px;
+    margin-left: 180px;
+}
+
+.container .button_trailer:hover {
+    transform: scale(1.1);
+    color: rgb(151, 67, 67)
+}
+
+.container .button_trailer a {
+    color: white;
+    font-family: 'bloodborne';
+    padding-left: 8px ;
+    
+}
+
+.hunter {
+    width: 550px;
+    padding-top: 40px;
+}
+
+.background_video {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.background_video .video {
+    height: 130vh;
+}
+
+.background_video::after {
+    content: "";
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgb(14, 13, 13) 0%, rgba(0, 0, 0, 0.377) 50%, rgba(0,0,0,1) 100%);
+
+    
+}
+
+.modal {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(52, 52, 50, 0.749);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    border-radius: 5px;
+    gap: 15px;
+}
+
+.close_modal {
+    background-color: white;
+    color: orangered;
+    font-weight: bold;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.modal iframe {
+    border-width: 0;
+    width: 640px;
+    height: 360px;
+}
+
+.modal.open {
+    opacity: 1;
+    visibility:visible;
+}
