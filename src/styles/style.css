@@ -31,10 +31,7 @@ body {
     height: 100%;
 }
 
-.header_menu ul {
-    list-style: none;
 
-}
 
 .header nav li a {
     font-weight: bold;
