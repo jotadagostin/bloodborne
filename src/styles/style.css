@@ -92,6 +92,10 @@ body {
     margin-left: 180px;
 }
 
+.container .button_trailer a {
+    text-decoration: none;
+}
+
 .container .button_trailer:hover {
     transform: scale(1.1);
     color: rgb(151, 67, 67)
