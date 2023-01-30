@@ -45,6 +45,10 @@ body {
     
 }
 
+.header nav ul li {
+    list-style: none;
+}
+
 .header nav li a:hover {
     color: rgb(202, 202, 202);
     cursor: pointer;
