@@ -43,8 +43,14 @@
         gap: 10px;
     }
 
+   
+
     .container .image_title {
-        max-width: 75%;
+        max-width: 70%;
+    }
+
+    .container p {
+        max-width: 70%;
     }
 
     .modal #video {
@@ -57,5 +63,9 @@
     .moda #video {
         width: 250px;
         height: 140px;
+    }
+
+    .container p {
+        max-width: 70%;
     }
 }
