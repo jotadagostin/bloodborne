@@ -43,7 +43,11 @@
         gap: 10px;
     }
 
-   
+   nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
 
     .container .image_title {
         max-width: 70%;
@@ -57,6 +61,7 @@
         width: 300px;
         height: 169px;
     }
+
 }
 
 @media screen and (max-width: 376px) {
@@ -67,5 +72,11 @@
 
     .container p {
         max-width: 70%;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        
     }
 }
