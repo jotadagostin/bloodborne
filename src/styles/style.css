@@ -84,9 +84,9 @@ body {
 
 .container .button_trailer {
     background-color: transparent;
-    color: rgb(100, 37, 37);
-    padding: 18px;
-    font-size: 18px;
+    color: rgb(233, 231, 231);
+    padding: 14px ;
+    font-size: 16px;
     font-weight: bold;
     cursor: pointer;
     border: 1px solid white;
@@ -94,15 +94,17 @@ body {
     transition: 0.5s all ease-in-out;
     border-radius: 50px;
     margin-left: 180px;
+    font-family: 'bloodborne';
+    text-align: center;
+    align-items: center;
 }
 
-.container .button_trailer a {
-    text-decoration: none;
-}
+
 
 .container .button_trailer:hover {
-    transform: scale(1.1);
-    color: rgb(151, 67, 67)
+    transform: scale(1.2);
+    color: rgb(100, 98, 98);
+    filter: drop-shadow(3px 2px 5px red);
 }
 
 .container .button_trailer a {
